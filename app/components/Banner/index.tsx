@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from "next/link";
 
 const Banner = () => {
-
     return (
         <div id="home-section" className='bg-lightkblue'>
             <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6">
