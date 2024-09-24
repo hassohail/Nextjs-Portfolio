@@ -40,7 +40,7 @@ const Banner = () => {
                         </div>
 
                         <div className='flex items-center justify-between pt-10 lg:pt-4'>
-                            <Link target={"_blank"} href={"https://www.fiverr.com/hassanmemon1090?up_rollout=true"}>
+                            <Link target={"_blank"} href={"https://www.fiverr.com/s/Q7bXwq6"}>
                                 <div className='flex gap-2 justify-center items-center'>
                                     <Image src="/assets/banner/fiverr.svg" alt="check-image" width={30} height={30}
                                            className='smallImage'/>
@@ -72,7 +72,7 @@ const Banner = () => {
                     </div>
 
                     <div className='col-span-6 flex justify-center'>
-                        <Image src="/assets/banner/hassan.png" alt="nothing" width={385} height={805}/>
+                    <Image src="https://res.cloudinary.com/ddxbqolus/image/upload/v1727102738/hassan_j3giau.png" alt="nothing" loading="lazy" width="500" height="805"/>
                     </div>
                 </div>
             </div>
