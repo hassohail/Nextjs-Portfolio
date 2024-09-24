@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const postData = [
     {
-        name: "leoleo900c",
+        name: "Muntaz Kaleem",
         profession: 'Canada',
         comment: 'My portal looks very professional he has done an amazing job. I definitely recommend this freelancer to everyone! He completed the project in very short time with great perfection',
         imgSrc: '/assets/testimonial/avatar.png',
@@ -23,27 +23,15 @@ const postData = [
     {
         name: "jackhenry0089",
         profession: 'United States',
-        comment: 'Moon has perfectly done with website landing page using reactjs and tailwind css technology. His skills are very professional and he provides quality work. I will say thanks.',
+        comment: 'Hassan has perfectly done with website landing page using reactjs and tailwind css technology. His skills are very professional and he provides quality work. I will say thanks.',
         imgSrc: '/assets/testimonial/avatar.png',
     },
-    {
-        name: "Sophia Lee",
-        profession: 'United States',
-        comment: 'Moon has demonstrated exceptional skill in creating website landing pages using React.js and Tailwind CSS technology. His professionalism and the quality of his work are truly impressive. Many thanks!',
-        imgSrc: '/assets/testimonial/avatar.png',
-    },
-    {
-        name: "Alexandre Dubois",
-        profession: 'France',
-        comment: 'Moon has a remarkable talent for crafting website landing pages. His use of React.js and Tailwind CSS technology is outstanding. I am truly impressed by his professionalism and the quality of his work. Merci beaucoup!',
-        imgSrc: '/assets/testimonial/avatar.png',
-    },
-    {
-        name: "Isabella Chen",
-        profession: 'Japan',
-        comment: 'Moon\'s website landing page creations are excellent. His use of React.js and Tailwind CSS technology is superb. He provides professional skills and high-quality work. Thank you!',
-        imgSrc: '/assets/testimonial/avatar.png',
-    },
+    // {
+    //     name: "Sophia Lee",
+    //     profession: 'United States',
+    //     comment: 'Hassan has demonstrated exceptional skill in creating website landing pages using React.js and Tailwind CSS technology. His professionalism and the quality of his work are truly impressive. Many thanks!',
+    //     imgSrc: '/assets/testimonial/avatar.png',
+    // },
 
 ]
 

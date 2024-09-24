@@ -8,38 +8,38 @@ import { StarIcon } from '@heroicons/react/24/solid'
 
 const postData = [
     {
-        heading: 'Romania SAAS Company',
-        heading2: 'APOSTAL',
+        heading: 'Food Delivery App',
+        heading2: 'DICE',
         name: "NEXT JS Multi Language Landing Page",
-        imgSrc: '/assets/courses/multi-lang.png',
+        imgSrc: '/assets/courses/dice1.png',
         students: 130,
         classes: 12,
         price: 20,
         rating: 4.7,
-        link: 'https://vlad-company.vercel.app/'
+        link: 'https://www.trydice.com/'
     },
 
     {
-        heading: 'Live Crypto Market Site',
-        heading2: 'Crypto',
-        name: "Live Crypto APIs Consumes",
-        imgSrc: '/assets/courses/crypto.png',
+        heading: 'Fund Documentation Website',
+        heading2: 'AUGIER.AI',
+        name: "FUll Stack Website",
+        imgSrc: '/assets/courses/augier.png',
         students: 120,
         classes: 12,
         price: 20,
         rating: 4.7,
-        link: 'https://crypto-nextjs.netlify.app/'
+        link: 'https://augier.ai/'
     },
     {
-        heading: 'Analytics Services',
-        heading2: 'Modernized',
-        name: "Full Stack Admin dashboard",
-        imgSrc: '/assets/courses/dashboard.png',
+        heading: 'Email Meetings Scheduling App',
+        heading2: 'Commflow AI',
+        name: "Full Stack & AI Website",
+        imgSrc: '/assets/courses/email.png',
         students: 150,
         classes: 12,
         price: 20,
         rating: 4.7,
-        link: 'https://modernize-nextjs-free.vercel.app/'
+        link: '#'
     },
     {
         heading: 'Tech Company Website',
