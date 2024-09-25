@@ -52,54 +52,54 @@ const postData = [
         rating: 4.7,
         link: 'https://www.callsense.ai/'
     },
-    {
-        heading: 'Full stack 3D ',
-        heading2: 'React Website',
-        name: "3D Company Landing Page",
-        imgSrc: '/assets/courses/3d-website.png',
-        students: 150,
-        classes: 12,
-        price: 20,
-        rating: 4.7,
-        link: 'https://3d-landingpage2024.netlify.app/'
-    },
 ]
 
 // CAROUSEL SETTINGS
 
 
 const MultipleItems = () => {
-        const settings = {
-            dots: false,
-            infinite: true,
-            slidesToShow: 3,
-            // centerMode: true,
-            slidesToScroll: 2,
-            arrows: false,
-            autoplay: false,
-            speed: 500,
-            cssEase: "linear",
-            responsive: [
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: false
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: false
-                    }
+    const settings = {
+        dots: true,
+        dotsClass: "slick-dots",
+        infinite: true,
+        slidesToShow: 3,
+        // centerMode: true,
+        slidesToScroll: 2,
+        arrows: false,
+        // autoplay: true,
+        speed: 1000,
+        // autoplaySpeed: 4000,
+        cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
                 }
-            ]
-        };
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            // {
+            //     breakpoint: 600,
+            //     settings: {
+            //         slidesToShow: 1,
+            //         slidesToScroll: 1,
+            //         infinite: true,
+            //         dots: false
+            //     }
+            // }
+        ]
+    };
 
 
         // @ts-ignore
