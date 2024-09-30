@@ -20,7 +20,7 @@ const postData = [
     },
 
     {
-        heading: 'Fund Documentation Website',
+        heading: 'Fund Documentation App',
         heading2: 'AUGIER.AI',
         name: "FUll Stack Website",
         imgSrc: '/assets/courses/augier.png',
@@ -59,29 +59,18 @@ const postData = [
 
 const MultipleItems = () => {
     const settings = {
-        dots: true,
-        dotsClass: "slick-dots",
+        dots: false,
         infinite: true,
         slidesToShow: 3,
         // centerMode: true,
         slidesToScroll: 2,
         arrows: false,
-        // autoplay: true,
-        speed: 1000,
-        // autoplaySpeed: 4000,
+        autoplay: false,
+        speed: 500,
         cssEase: "linear",
         responsive: [
             {
                 breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
-            },
-            {
-                breakpoint: 800,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -89,17 +78,18 @@ const MultipleItems = () => {
                     dots: false
                 }
             },
-            // {
-            //     breakpoint: 600,
-            //     settings: {
-            //         slidesToShow: 1,
-            //         slidesToScroll: 1,
-            //         infinite: true,
-            //         dots: false
-            //     }
-            // }
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }
         ]
     };
+
 
 
         // @ts-ignore
